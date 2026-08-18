@@ -570,3 +570,44 @@ section {
   }
 
 }
+/* 🎵 Music Button */
+.music-button {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9999;
+
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(8px);
+
+  color: #111;
+  font-size: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.music-button.playing {
+  animation: musicRotate 3s linear infinite;
+}
+
+@keyframes musicRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
