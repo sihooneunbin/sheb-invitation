@@ -1,7 +1,7 @@
 /* ========================================
    기본 설정
 ======================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,10 +15,9 @@ html {
 body {
   background: #ffffff;
   color: #111111;
-  font-family: "Times New Roman", "Noto Serif KR", serif;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
   overflow-x: hidden;
 }
-
 button,
 a {
   font: inherit;
@@ -188,26 +187,26 @@ section {
 /* 필기체 제목 */
 
 .opening-content h1 {
-  font-family: "Brush Script MT", "Segoe Script", cursive;
+  font-family: "Allura", cursive;
 
-  font-size: clamp(30px, 8vw, 42px);
+  font-size: clamp(38px, 10vw, 50px);
   font-weight: 400;
   line-height: 1;
 
   white-space: nowrap;
-
-  letter-spacing: -2px;
+  letter-spacing: 0;
 }
 
 /* We're Getting Married */
 
 .subtitle {
-  margin-top: 22px;
+  margin-top: 20px;
 
-  font-size: 17px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 19px;
   font-style: italic;
 
-  letter-spacing: -0.5px;
+  letter-spacing: 0;
 }
 
 
@@ -226,12 +225,12 @@ section {
   justify-content: space-between;
   align-items: center;
 
-  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
   font-style: italic;
 
   white-space: nowrap;
 }
-
 
 /* ========================================
    02. CELEBRATE
