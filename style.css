@@ -290,15 +290,16 @@ mask-composite: intersect;
 
 /* ========================================
    03. OUR WEDDING PARTY
-======================================== */
+   ======================================== */
 
 .wedding-party {
-  padding: 30px 20px 150px;
-
+  padding: 65px 20px 100px;
   text-align: center;
 }
 
 .party-title h2 {
+  margin: 0;
+
   font-size: 35px;
   line-height: 1.05;
   font-weight: 400;
@@ -306,10 +307,9 @@ mask-composite: intersect;
 }
 
 .script-title {
-  margin-top: 5px;
+  margin-top: 8px;
 
   font-family: "Brush Script MT", "Segoe Script", cursive;
-
   font-size: 58px;
   line-height: 1;
 }
@@ -323,8 +323,6 @@ mask-composite: intersect;
   font-size: 18px;
   letter-spacing: 0.5px;
 }
-
-
 /* ========================================
    공통 섹션
 ======================================== */
