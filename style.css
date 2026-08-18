@@ -619,3 +619,36 @@ mask-composite: intersect;
     transform: rotate(360deg);
   }
 }
+/* =========================================
+   04. INVITATION
+========================================= */
+
+.invitation {
+    padding: 120px 25px 140px;
+    text-align: center;
+}
+
+.invitation .section-symbol {
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+
+.invitation h2 {
+    margin: 0 auto 55px;
+    max-width: 420px;
+
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.invitation p {
+    max-width: 390px;
+    margin: 0 auto;
+
+    font-size: 15px;
+    line-height: 2.1;
+    color: #777;
+    font-weight: 400;
+}
