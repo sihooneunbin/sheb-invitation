@@ -1,0 +1,568 @@
+/* ========================================
+   기본 설정
+======================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #111111;
+  font-family: "Times New Roman", "Noto Serif KR", serif;
+  overflow-x: hidden;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ========================================
+   페이지 전체
+======================================== */
+
+section {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+
+/* ========================================
+   음악 버튼
+======================================== */
+
+.music-button {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 100;
+
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.7);
+
+  font-size: 22px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(4px);
+}
+
+
+/* ========================================
+   01. OPENING
+======================================== */
+
+.opening {
+  position: relative;
+
+  min-height: 720px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+}
+
+
+/* 메인 사진 영역 */
+
+.main-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 650px;
+
+  overflow: hidden;
+}
+
+
+/* 사진을 나중에 넣기 전 임시 자리 */
+
+.photo-placeholder {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0%,
+      #eeeeee 55%,
+      #ffffff 100%
+    );
+
+  color: rgba(0, 0, 0, 0.18);
+
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+
+/* 사진 아래쪽을 하얗게 날리는 효과 */
+
+.main-photo::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 42%;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.65) 45%,
+      #ffffff 100%
+    );
+}
+
+
+/* 위쪽 day / eve */
+
+.top-labels {
+  position: absolute;
+
+  top: 18px;
+  left: 11px;
+  right: 11px;
+
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 3;
+
+  font-size: 17px;
+  font-style: italic;
+}
+
+
+/* 중앙 제목 */
+
+.opening-content {
+  position: absolute;
+
+  top: 235px;
+  left: 20px;
+  right: 20px;
+
+  z-index: 3;
+
+  text-align: center;
+}
+
+
+/* 필기체 제목 */
+
+.opening-content h1 {
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+
+  font-size: clamp(42px, 11vw, 58px);
+  font-weight: 400;
+  line-height: 1;
+
+  white-space: nowrap;
+
+  letter-spacing: -2px;
+}
+
+
+/* We're Getting Married */
+
+.subtitle {
+  margin-top: 22px;
+
+  font-size: 20px;
+  font-style: italic;
+
+  letter-spacing: -0.5px;
+}
+
+
+/* 날짜 / WITH LOVE / 시간 */
+
+.opening-info {
+  position: absolute;
+
+  left: 11px;
+  right: 11px;
+  bottom: 165px;
+
+  z-index: 4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 16px;
+  font-style: italic;
+
+  white-space: nowrap;
+}
+
+
+/* ========================================
+   02. CELEBRATE
+======================================== */
+
+.celebrate {
+  padding: 70px 20px 110px;
+
+  text-align: center;
+}
+
+.section-symbol {
+  margin-bottom: 18px;
+
+  font-size: 28px;
+  line-height: 1;
+}
+
+.celebrate h2 {
+  margin-bottom: 42px;
+
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* 가로 사진 */
+
+.wide-photo {
+  width: 100%;
+  height: 170px;
+
+  overflow: hidden;
+}
+
+.wide-photo .photo-placeholder {
+  background:
+    linear-gradient(
+      135deg,
+      #eeeeee,
+      #d8d8d8,
+      #f7f7f7
+    );
+}
+
+
+/* ========================================
+   03. OUR WEDDING PARTY
+======================================== */
+
+.wedding-party {
+  padding: 30px 20px 150px;
+
+  text-align: center;
+}
+
+.party-title h2 {
+  font-size: 35px;
+  line-height: 1.05;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.script-title {
+  margin-top: 5px;
+
+  font-family: "Brush Script MT", "Segoe Script", cursive;
+
+  font-size: 58px;
+  line-height: 1;
+}
+
+.party-date {
+  margin-top: 65px;
+
+  color: #777777;
+
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+
+/* ========================================
+   공통 섹션
+======================================== */
+
+.section-label {
+  margin-bottom: 20px;
+
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+
+  color: #777777;
+}
+
+
+/* ========================================
+   04. INVITATION
+======================================== */
+
+.invitation {
+  padding: 120px 30px;
+
+  text-align: center;
+}
+
+.invitation h2 {
+  margin-bottom: 35px;
+
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.invitation p {
+  color: #555555;
+
+  font-size: 15px;
+  line-height: 2;
+}
+
+
+/* ========================================
+   05. WEDDING INFORMATION
+======================================== */
+
+.wedding-info {
+  padding: 100px 30px;
+
+  text-align: center;
+
+  background: #faf9f7;
+}
+
+.wedding-info h2 {
+  margin-bottom: 35px;
+
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.wedding-info p {
+  margin-top: 25px;
+
+  color: #555555;
+
+  font-size: 16px;
+  line-height: 2;
+}
+
+
+/* ========================================
+   06. GALLERY
+======================================== */
+
+.gallery {
+  padding: 110px 20px;
+
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 40px;
+
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.gallery-placeholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 5px;
+}
+
+.gallery-placeholder div {
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eeeeee;
+
+  color: rgba(0, 0, 0, 0.2);
+
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+
+/* ========================================
+   07. LOCATION
+======================================== */
+
+.location {
+  padding: 110px 30px;
+
+  text-align: center;
+}
+
+.location h2 {
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.location p {
+  margin-bottom: 35px;
+
+  color: #555555;
+
+  line-height: 2;
+}
+
+.location-button {
+  display: inline-block;
+
+  padding: 13px 25px;
+
+  border: 1px solid #222222;
+
+  font-size: 13px;
+
+  transition: 0.3s;
+}
+
+.location-button:hover {
+  background: #111111;
+  color: #ffffff;
+}
+
+
+/* ========================================
+   08. ACCOUNT
+======================================== */
+
+.account {
+  padding: 110px 30px;
+
+  text-align: center;
+
+  background: #faf9f7;
+}
+
+.account h2 {
+  margin-bottom: 30px;
+
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.account p {
+  color: #666666;
+
+  line-height: 2;
+}
+
+
+/* ========================================
+   09. ENDING
+======================================== */
+
+.ending {
+  min-height: 650px;
+
+  position: relative;
+
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.ending-photo {
+  width: 100%;
+  height: 470px;
+}
+
+.ending-content {
+  position: relative;
+
+  margin-top: -10px;
+
+  padding: 30px;
+}
+
+.ending-content h2 {
+  margin-bottom: 25px;
+
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.ending-content p {
+  color: #666666;
+
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* ========================================
+   모바일 세부 조정
+======================================== */
+
+@media (max-width: 380px) {
+
+  .opening {
+    min-height: 680px;
+  }
+
+  .main-photo {
+    height: 610px;
+  }
+
+  .opening-content {
+    top: 220px;
+  }
+
+  .opening-content h1 {
+    font-size: 42px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .opening-info {
+    bottom: 145px;
+    font-size: 14px;
+  }
+
+}
