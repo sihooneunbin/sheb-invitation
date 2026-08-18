@@ -146,68 +146,81 @@
 </section>
 
 
-<!-- ========================================
-     06. BRIDE & GROOM
-========================================= -->
+/* =========================================
+   06. BRIDE & GROOM
+========================================= */
 
-<section class="bride-groom">
+.bride-groom {
+  padding: 100px 20px 140px;
+  text-align: center;
+}
 
-  <div class="couple-photos">
+.couple-photos {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  max-width: 440px;
+  margin: 0 auto;
+}
 
-    <!-- 신부 -->
-    <div class="couple">
+.couple {
+  width: 50%;
+}
 
-      <div class="couple-photo">
-        <div class="photo-placeholder">
-          BRIDE PHOTO
-        </div>
-      </div>
+.couple-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
 
-      <p>
-        <span>Bride.</span>
-        <strong>은빈</strong>
-      </p>
+.couple-photo .photo-placeholder {
+  width: 100%;
+  height: 100%;
 
-    </div>
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  background: #f4f2ee;
+  color: #b8b3ad;
 
-    <!-- 신랑 -->
-    <div class="couple">
+  font-size: 11px;
+  letter-spacing: 3px;
+}
 
-      <div class="couple-photo">
-        <div class="photo-placeholder">
-          GROOM PHOTO
-        </div>
-      </div>
+.couple p {
+  margin: 10px 0 0;
+  text-align: left;
+  font-size: 15px;
+}
 
-      <p>
-        <span>Groom.</span>
-        <strong>시훈</strong>
-      </p>
+.couple p span {
+  font-family: serif;
+  font-style: italic;
+  margin-right: 4px;
+}
 
-    </div>
+.couple p strong {
+  font-weight: 600;
+}
 
-  </div>
+.family-info {
+  margin-top: 180px;
+  text-align: center;
+}
 
+.family-info p {
+  margin: 0 0 22px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #777;
+}
 
-  <!-- 가족관계 -->
-  <div class="family-info">
-
-    <p>
-      아버지 · 어머니의 아들
-      <strong>시훈</strong>
-    </p>
-
-    <p>
-      아버지 · 어머니의 딸
-      <strong>은빈</strong>
-    </p>
-
-  </div>
-
-</section>
-
-
+.family-info strong {
+  margin-left: 18px;
+  color: #111;
+  font-weight: 600;
+}
 <!-- ========================================
      07. GALLERY
 ========================================= -->
