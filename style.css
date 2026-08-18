@@ -95,7 +95,12 @@ section {
 
   overflow: hidden;
 }
-
+.main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 /* 사진을 나중에 넣기 전 임시 자리 */
 
