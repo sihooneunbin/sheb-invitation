@@ -100,8 +100,9 @@ section {
   height: 100%;
   object-fit: cover;
   display: block;
-}
 
+  filter: grayscale(85%);
+}
 /* 사진을 나중에 넣기 전 임시 자리 */
 
 .photo-placeholder {
@@ -189,7 +190,7 @@ section {
 .opening-content h1 {
   font-family: "Brush Script MT", "Segoe Script", cursive;
 
-  font-size: clamp(34px, 9vw, 48px);
+  font-size: clamp(30px, 8vw, 42px);
   font-weight: 400;
   line-height: 1;
 
@@ -197,7 +198,6 @@ section {
 
   letter-spacing: -2px;
 }
-
 
 /* We're Getting Married */
 
