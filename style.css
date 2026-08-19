@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Scaver";
+  src: url("Scaver-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
   font-family: "Funky Signature";
   src: url("FunkySignature.otf") format("opentype");
   font-weight: normal;
