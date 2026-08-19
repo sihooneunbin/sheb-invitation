@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Scaver";
-  src: url("Scaver-Regular.ttf") format("truetype");
-  font-weight: 400;
+  src: url("./Scaver-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
