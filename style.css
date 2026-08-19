@@ -27,7 +27,7 @@ html {
 body {
   background: #ffffff;
   color: #111111;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-family: "Pretendard", sans-serif;
   overflow-x: hidden;
 }
 button,
@@ -214,7 +214,7 @@ section {
 .subtitle {
   margin-top: 20px;
 
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Scaver", sans-serif;
   font-size: 19px;
   font-style: italic;
 
@@ -237,7 +237,7 @@ section {
   justify-content: space-between;
   align-items: center;
 
-  font-family: "Cormorant Garamond", serif;
+font-family: "Scaver", sans-serif;
   font-size: 16px;
   font-style: italic;
 
