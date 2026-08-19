@@ -935,3 +935,18 @@ mask-composite: intersect;
   line-height: 1.8;
   color: #777;
 }
+.location-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.location-address button {
+  border: 0;
+  background: transparent;
+  padding: 5px;
+
+  font-size: 18px;
+  cursor: pointer;
+}
