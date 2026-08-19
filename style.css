@@ -1133,3 +1133,17 @@ body {
   font-family: "Pretendard", -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
 }
+/* ========================================
+   ENDING
+========================================= */
+
+.ending-photo {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ending-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
