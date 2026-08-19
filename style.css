@@ -1183,3 +1183,9 @@ body {
 .english {
   font-family: "Scaver", sans-serif !important;
 }
+/* DATE - Scaver */
+.wedding-date h2,
+.calendar-month,
+.calendar-days {
+  font-family: "Scaver", sans-serif;
+}
