@@ -1176,3 +1176,6 @@ body {
   margin: 0;
   color: #777;
 }
+.calendar-month {
+  font-family: "Scaver", sans-serif;
+}
