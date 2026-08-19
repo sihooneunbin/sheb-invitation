@@ -850,3 +850,91 @@ mask-composite: intersect;
 
   font-weight: 500;
 }
+/* ========================================
+   08. LOCATION
+========================================= */
+
+.location {
+  padding: 100px 20px 120px;
+  text-align: center;
+}
+
+.location .section-label {
+  font-family: serif;
+  font-style: italic;
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+}
+
+.location h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+
+/* 지도 */
+
+.location-map {
+  width: 100%;
+  max-width: 520px;
+  height: 280px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eeeeee;
+  color: #aaaaaa;
+
+  font-size: 14px;
+}
+
+
+/* 주소 */
+
+.location-address {
+  max-width: 520px;
+  margin: 0 auto 35px;
+  padding: 14px 10px;
+
+  border: 1px solid #ddd;
+
+  font-size: 16px;
+  color: #333;
+}
+
+
+/* 교통 안내 */
+
+.transport-info {
+  max-width: 520px;
+  margin: 0 auto 28px;
+
+  text-align: left;
+}
+
+.transport-title {
+  display: inline-block;
+
+  padding: 5px 12px;
+  margin-bottom: 10px;
+
+  background: #eeeeee;
+  border-radius: 20px;
+
+  font-size: 14px;
+  color: #333;
+}
+
+.transport-info p {
+  margin: 0;
+  padding-left: 12px;
+
+  font-size: 15px;
+  line-height: 1.8;
+  color: #777;
+}
