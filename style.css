@@ -264,6 +264,7 @@ section {
 .celebrate h2 {
   margin-bottom: 42px;
 
+  font-family: "Scaver", sans-serif;
   font-size: 25px;
   font-weight: 400;
   font-style: italic;
@@ -312,6 +313,7 @@ mask-composite: intersect;
 .party-title h2 {
   margin: 0;
 
+  font-family: "Scaver", sans-serif;
   font-size: 35px;
   line-height: 1.05;
   font-weight: 400;
