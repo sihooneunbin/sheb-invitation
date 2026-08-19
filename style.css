@@ -985,3 +985,61 @@ mask-composite: intersect;
 .account {
   background: transparent;
 }
+/* 계좌 영역 가로 정렬 */
+.account-group {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 60px;
+  text-align: left;
+}
+
+.account-group h3 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #222;
+}
+
+.account-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 20px 0;
+
+  border-bottom: 1px solid #eee;
+}
+
+.account-info {
+  flex: 1;
+  text-align: left;
+}
+
+.account-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.account-bank {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 3px;
+}
+
+.account-number {
+  font-size: 16px;
+}
+
+.copy-btn {
+  flex-shrink: 0;
+
+  border: 0;
+  background: #eee;
+
+  padding: 8px 12px;
+
+  font-size: 12px;
+}
