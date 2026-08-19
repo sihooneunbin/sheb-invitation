@@ -45,3 +45,36 @@ accountTitles.forEach((title) => {
   });
 
 });
+/* ========================================
+   ACCOUNT COPY
+========================================= */
+
+const copyButtons = document.querySelectorAll(".copy-btn");
+
+copyButtons.forEach((button) => {
+
+  button.addEventListener("click", async () => {
+
+    const account = button.dataset.account;
+
+    try {
+
+      await navigator.clipboard.writeText(account);
+
+      const originalText = button.textContent;
+
+      button.textContent = "COPIED";
+
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 1500);
+
+    } catch (error) {
+
+      alert("계좌번호 복사에 실패했습니다.");
+
+    }
+
+  });
+
+});
