@@ -1147,3 +1147,20 @@ body {
   width: 100%;
   height: auto;
 }
+.ending-content {
+  text-align: center;
+  padding: 35px 20px 60px;
+}
+
+.ending-content h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.ending-content p {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  color: #777;
+}
