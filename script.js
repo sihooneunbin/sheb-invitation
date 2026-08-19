@@ -28,3 +28,20 @@ if (copyAddress) {
 
   });
 }
+/* ========================================
+   ACCOUNT ACCORDION
+========================================= */
+
+const accountTitles = document.querySelectorAll(".account-title");
+
+accountTitles.forEach((title) => {
+
+  title.addEventListener("click", () => {
+
+    const group = title.closest(".account-group");
+
+    group.classList.toggle("open");
+
+  });
+
+});
