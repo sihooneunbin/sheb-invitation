@@ -215,7 +215,7 @@ section {
   margin-top: 20px;
 
   font-family: "Scaver", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-style: italic;
 
   letter-spacing: 0;
@@ -238,7 +238,7 @@ section {
   align-items: center;
 
 font-family: "Scaver", sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-style: italic;
 
   white-space: nowrap;
@@ -594,7 +594,7 @@ font-family: "Funky Signature", cursive;
 
   .opening-info {
     bottom: 145px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
@@ -1192,4 +1192,5 @@ body {
 .opening-content h1 {
   font-family: "Funky Signature", cursive;
   font-weight: normal;
+  font-size: 42px;
 }
