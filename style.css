@@ -306,7 +306,7 @@ mask-composite: intersect;
    ======================================== */
 
 .wedding-party {
-  padding: 65px 20px 100px;
+  padding: 25px 20px 100px;
   text-align: center;
 }
 
@@ -329,7 +329,7 @@ font-family: "Funky Signature", cursive;
 }
 
 .party-date {
-  margin-top: 65px;
+  margin-top: 25px;
 
   color: #777777;
 
