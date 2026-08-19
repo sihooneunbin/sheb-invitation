@@ -740,10 +740,8 @@ font-family: "Funky Signature", cursive;
 .family-info p {
   position: relative;
 
-  width: 300px;
+  width: fit-content;
   margin: 0 auto 18px;
-
-transform: translateX(80px);
 
   font-size: 15px;
   line-height: 1.8;
@@ -757,7 +755,9 @@ transform: translateX(80px);
 
 .family-info .flower {
   position: absolute;
-  left: -22px;
+  left: -28px;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 12px;
 }
 
