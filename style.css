@@ -417,7 +417,7 @@ mask-composite: intersect;
 
 .gallery h2 {
   margin-bottom: 40px;
-
+ font-family: "Scaver", sans-serif;
   font-size: 30px;
   font-weight: 400;
   font-style: italic;
