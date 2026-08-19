@@ -981,3 +981,7 @@ mask-composite: intersect;
 .map-button:hover {
   background: #fafafa;
 }
+/* ACCOUNT 배경 제거 */
+.account {
+  background: transparent;
+}
