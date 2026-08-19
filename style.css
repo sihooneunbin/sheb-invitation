@@ -234,10 +234,11 @@ section {
   z-index: 4;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 28px;
 
-font-family: "Scaver", sans-serif;
+  font-family: "Scaver", sans-serif;
   font-size: 13px;
   font-style: italic;
 
