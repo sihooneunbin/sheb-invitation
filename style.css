@@ -1189,3 +1189,7 @@ body {
 .calendar-days {
   font-family: "Scaver", sans-serif;
 }
+.opening-content h1 {
+  font-family: "Funky Signature", cursive;
+  font-weight: normal;
+}
