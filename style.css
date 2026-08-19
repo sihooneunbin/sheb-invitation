@@ -718,10 +718,10 @@ font-family: "Funky Signature", cursive;
 
 .couple p {
   margin: 8px 0 0;
-  padding-bottom: 30px;
   text-align: left;
   font-size: 15px;
 }
+
 .couple p span {
   font-family: serif;
   font-style: italic;
@@ -733,7 +733,8 @@ font-family: "Funky Signature", cursive;
 }
 
 .family-info {
-  margin-top: 70px;
+  margin-top: 0 !important;
+  padding-top: 80px;
   text-align: center;
 }
 
