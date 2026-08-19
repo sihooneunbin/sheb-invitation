@@ -1119,3 +1119,12 @@ mask-composite: intersect;
 
   border-bottom: 1px solid #eee;
 }
+/* 계좌 항목 아래 선 제거 */
+.account-item {
+  border-bottom: none;
+}
+
+/* 이름 굵기 한 단계 올리기 */
+.account-name {
+  font-weight: 600;
+}
