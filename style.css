@@ -743,6 +743,8 @@ font-family: "Funky Signature", cursive;
   width: 300px;
   margin: 0 auto 18px;
 
+  transform: translateX(10px);
+
   font-size: 15px;
   line-height: 1.8;
   text-align: left;
