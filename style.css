@@ -738,14 +738,25 @@ font-family: "Funky Signature", cursive;
 }
 
 .family-info p {
-  margin: 0 0 18px;
+  position: relative;
+
+  width: 260px;
+  margin: 0 auto 18px;
+
   font-size: 15px;
   line-height: 1.8;
+  text-align: left;
 }
 
 .family-info strong {
   margin-left: 8px;
   font-weight: 600;
+}
+
+.family-info .flower {
+  position: absolute;
+  left: -22px;
+  font-size: 12px;
 }
 
 .bride-groom-intro {
