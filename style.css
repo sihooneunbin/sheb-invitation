@@ -1194,4 +1194,7 @@ body {
   font-size: 50px;
   font-weight: 500;
   -webkit-text-stroke: 0.3px currentColor;
+
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.25);
 }
