@@ -1043,3 +1043,79 @@ mask-composite: intersect;
 
   font-size: 12px;
 }
+/* ========================================
+   ACCOUNT ACCORDION
+========================================= */
+
+.account-title {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 0;
+
+  border: 0;
+  border-bottom: 1px solid #222;
+
+  background: transparent;
+
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  text-align: left;
+}
+
+.account-arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+
+/* 계좌 내용 */
+
+.account-list {
+  max-height: 0;
+  overflow: hidden;
+
+  transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease;
+
+  opacity: 0;
+}
+
+
+/* 열렸을 때 */
+
+.account-group.open .account-list {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+
+/* 화살표 회전 */
+
+.account-group.open .account-arrow {
+  transform: rotate(180deg);
+}
+
+
+/* 계좌 하나 */
+
+.account-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 22px 0;
+
+  border-bottom: 1px solid #eee;
+}
