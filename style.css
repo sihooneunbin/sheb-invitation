@@ -1181,5 +1181,5 @@ body {
 }
 /* 일반 영문 */
 .english {
-  font-family: "Scaver", sans-serif;
+  font-family: "Scaver", sans-serif !important;
 }
