@@ -731,3 +731,48 @@ mask-composite: intersect;
   line-height: 2;
   color: #777777;
 }
+/* ========================================
+   06. DATE
+======================================== */
+
+.wedding-date {
+  padding: 120px 20px 130px;
+  text-align: center;
+}
+
+.wedding-date .section-symbol {
+  margin-bottom: 45px;
+  font-size: 20px;
+}
+
+.date-year {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.date-main {
+  font-family: Georgia, serif;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.date-day {
+  margin-top: 18px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #888;
+}
+
+.date-time {
+  margin-top: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #555;
+}
