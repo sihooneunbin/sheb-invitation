@@ -329,13 +329,23 @@ font-family: "Funky Signature", cursive;
 }
 
 .party-date {
-  margin-top: 25px;
+  margin-top: 35px;
 
   color: #777777;
 
   font-family: Arial, sans-serif;
   font-size: 18px;
   letter-spacing: 0.5px;
+}
+
+.party-venue {
+  display: block;
+  margin-top: 8px;
+
+  font-family: "Pretendard", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
 }
 /* ========================================
    공통 섹션
